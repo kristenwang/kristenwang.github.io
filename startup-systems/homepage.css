@@ -15,7 +15,7 @@ h4{
   position: relative;
   left: 20px;
 }
-h5{
+strong{
   color: ##FF6347;
   font-size: 14px;
   font: italic;
@@ -26,7 +26,7 @@ id {
   font-family: Georgia;
   font-size: 20px;
   position: relative;
-  left: 40%;
+  left: 30%;
 }
 
 p{

@@ -15,11 +15,12 @@ h4{
   position: relative;
   left: 20px;
 }
+
 .strong{
   font-family: Georgia;
   color: #FF6347;
   font-size: 14px;
-  font-style: italic;
+  font-style: oblique;;
 }
 
 id {

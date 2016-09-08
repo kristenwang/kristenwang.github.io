@@ -1,0 +1,41 @@
+* {
+  margin: 10px;
+  padding: 5px;
+}
+h3{
+	font: bold;
+	font-size: 30px;
+	color: black;
+  position: relative;
+  left: 40%;
+}
+
+h4{
+    position: relative;
+  left: 20px;
+}
+
+id {
+  font: bold;
+  font-family: Georgia;
+    font-size: 20px;
+  position: relative;
+  left: 40%;
+}
+
+p{
+  font-size: 13px;
+  position: relative;
+  left: 20px;
+}
+img{
+	max-width:100px;
+  position: relative;
+  left: 40%;
+}
+
+.bio{
+  margin: auto;
+  width: 70%;
+  background-color:#d0eeee;
+}

@@ -18,7 +18,7 @@ h4{
 id {
   font: bold;
   font-family: Georgia;
-    font-size: 20px;
+  font-size: 20px;
   position: relative;
   left: 40%;
 }
@@ -38,4 +38,8 @@ img{
   margin: auto;
   width: 70%;
   background-color:#d0eeee;
+}
+.photo{
+  margin: auto;
+  width: 70%;
 }

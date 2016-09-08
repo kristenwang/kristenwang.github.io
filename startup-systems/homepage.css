@@ -29,6 +29,8 @@ p{
   left: 20px;
 }
 img{
+  max-width: 150px;
+  vertical-align: middle;
   position: relative;
   left: 20%;
 }

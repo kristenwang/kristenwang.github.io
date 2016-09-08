@@ -11,7 +11,8 @@ h3{
 }
 
 h4{
-    position: relative;
+  font-size: 15px;
+  position: relative;
   left: 20px;
 }
 
@@ -27,6 +28,7 @@ p{
   font-size: 13px;
   position: relative;
   left: 20px;
+  line-height: 90%;
 }
 img{
   max-width: 150px;

@@ -4,5 +4,5 @@ h3{
 	color: blue;
 }
 img{
-	size: 300px*300px;
+	max-width:320px !important;
 }

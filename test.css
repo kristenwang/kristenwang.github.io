@@ -44,8 +44,7 @@ he{
   font-size: 30px;
   font-family: fantasy;
   color: black;
-  position: relative;
-  left: 45%;
+  position: left;
 }
 .jspContainer
 {

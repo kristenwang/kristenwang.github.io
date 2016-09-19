@@ -8,8 +8,6 @@ body{
 	height:100%;
 	position:relative;
 	background-color:#EDEDED;
-	font-family:'Diverda Serif W01 Light Italic','DiverdaSerifW01-LightIt';
-	font-size:8pt
 	}
 	p,h1,h2,h3,h4,h5,h6,ul{
 		margin:0px;padding:0px
@@ -37,8 +35,7 @@ body{
 								}a img{ 
 									border:none
 									}
-}small{ 
-  font-size:1em
+}
 }a.button{
   display:inline-block;
   position:relative
@@ -294,9 +291,29 @@ margin:0 -3px 0 0;
   -moz-transition:all 0.5s ease-out;
   -o-transition:all 0.5s ease-out;
   transition:all 0.5s ease-out
-}.module.w1{ width:200px}.module.w2{ width:400px}.module.w3{ width:600px}.module.w4{ width:800px}.module.w5{ width:1000px}.module.h1{ height:200px}.module.h2{ height:400px}.module.h3{ height:600px}.module.h4{ height:800px}.module.h5{ height:1000px}.module.h6{ height:1200px}.module.h7{ height:1400px}.module.h8{ height:1600px}.module.h9{ height:1800px}.module.h9{ height:1800px}.module.c1,.moduleInner.c1{ left:0px}.module.c2,.moduleInner.c2{ left:200px}.module.c3,.moduleInner.c3{ left:400px}.module.c4,.moduleInner.c4{ left:600px}.module.c5,.moduleInner.c5{ left:800px}.module.r1,.moduleInner.r1{ top:0px}.module.r2,.moduleInner.r2{ top:200px}.module.r3,.moduleInner.r3{ top:400px}.module.r4,.moduleInner.r4{ top:600px}.module.r5,.moduleInner.r5{ top:800px}.module.r6,.moduleInner.r6{ top:1000px}.module.r7,.moduleInner.r7{ top:1200px}.module.r8,.moduleInner.r8{ top:1400px}.module.r9,.moduleInner.r9{ top:1600px}.module.r10,.moduleInner.r10{ top:1800px}.module.r11,.moduleInner.r11{ top:2000px}.module.r12,.moduleInner.r12{ top:2200px}.module.r13,.moduleInner.r13{ top:2400px}.module.r14,.moduleInner.r14{ top:2600px}.module.r15,.moduleInner.r15{ top:2800px}.module.r16,.moduleInner.r16{ top:3000px}.module.r17,.moduleInner.r17{ top:3200px}.module.r18,.moduleInner.r18{ top:3400px}.module.r19,.moduleInner.r19{ top:3600px}.module.r20,.moduleInner.r20{ top:3800px}.module.r21,.moduleInner.r21{ top:4000px}.module.r22,.moduleInner.r22{ top:4200px}.module.r23,.moduleInner.r23{ top:4400px}.module.r24,.moduleInner.r24{ top:4600px}.module.r25,.moduleInner.r25{ top:4800px}.module.r26,.moduleInner.r26{ top:5000px}.module.r27,.moduleInner.r27{ top:5200px}.module.r28,.moduleInner.r28{ top:5400px}.module.r29,.moduleInner.r29{ top:5600px}.module.r30,.moduleInner.r30{ top:5800px}.csstransitions #page.home .module .moduleInner.out .imgWrapper{	-webkit-transform:translateX(250px);	-moz-transform:translateX(250px);	-ms-transform:translateX(250px);	-o-transform:translateX(250px);	transform:translateX(250px)}.no-csstransitions.csstransforms #page.home .module .moduleInner.out .imgWrapper{	left:250px}.csstransitions .module .moduleInner .imgWrapper.next{	-webkit-transform:translateX(-200px);	-moz-transform:translateX(-200px);	-ms-transform:translateX(-200px);	-o-transform:translateX(-200px);	transform:translateX(-200px)}.csstransitions .module .moduleInner .imgWrapper.prev{	-webkit-transform:translateX(250px);	-moz-transform:translateX(250px);	-ms-transform:translateX(250px);	-o-transform:translateX(250px);	transform:translateX(250px)}.no-csstransitions .module .moduleInner .imgWrapper.next{	left:-200px}
-
-.module.textModule{
+}.module.w1{ 
+  width:200px
+}.module.w2{
+   width:400px
+}.module.w3{ 
+  width:600px
+}.module.w4{ 
+  width:800px
+}.module.w5{ 
+  width:1000px
+}.module.h1{ 
+  height:200px
+}.module.h2{ 
+  height:400px
+}.module.h3{ 
+  height:600px
+}.module.h4{ 
+  height:800px
+}.module.h5{ 
+  height:1000px
+}.module.h6{ 
+  height:1200px
+}.module.h7{ height:1400px}.module.h8{ height:1600px}.module.h9{ height:1800px}.module.h9{ height:1800px}.module.c1,.moduleInner.c1{ left:0px}.module.c2,.moduleInner.c2{ left:200px}.module.c3,.moduleInner.c3{ left:400px}.module.c4,.moduleInner.c4{ left:600px}.module.c5,.moduleInner.c5{ left:800px}.module.r1,.moduleInner.r1{ top:0px}.module.r2,.moduleInner.r2{ top:200px}.module.r3,.moduleInner.r3{ top:400px}.module.r4,.moduleInner.r4{ top:600px}.module.r5,.moduleInner.r5{ top:800px}.module.r6,.moduleInner.r6{ top:1000px}.module.r7,.moduleInner.r7{ top:1200px}.module.r8,.moduleInner.r8{ top:1400px}.module.r9,.moduleInner.r9{ top:1600px}.module.r10,.moduleInner.r10{ top:1800px}.module.r11,.moduleInner.r11{ top:2000px}.module.r12,.moduleInner.r12{ top:2200px}.module.r13,.moduleInner.r13{ top:2400px}.module.r14,.moduleInner.r14{ top:2600px}.module.r15,.moduleInner.r15{ top:2800px}.module.r16,.moduleInner.r16{ top:3000px}.module.r17,.moduleInner.r17{ top:3200px}.module.r18,.moduleInner.r18{ top:3400px}.module.r19,.moduleInner.r19{ top:3600px}.module.r20,.moduleInner.r20{ top:3800px}.module.r21,.moduleInner.r21{ top:4000px}.module.textModule{
   font-size:10pt;
 }
 .module.textModule .inner{ 
@@ -351,22 +368,22 @@ margin:0 -3px 0 0;
 module.workModule .moduleInner img{ 
   position:absolute;
   left:0px;
-  top:0px
+  top:0px;
 }
 .module.workModule .rollover p.media{ 
-  color:#ffffff;
+  color:#204005;
   font-size:19px;
   line-height:2em
 }
 .module.workModule .rollover .client{	
-  color:#000009;	
+  color:#204005;	
   font-family:'Helvetica W01 Bold';	
   font-size:30px;
   line-height:2em
 }
 .module.workModule .rollover .campaign{ 
   font-size:19px;
-  color:#ffffff
+  color:#204005
 }
 
 .csstransitions .module.workModule .moduleInner{

@@ -219,6 +219,9 @@ he{
   color: black;
   position: left;
 }
+he:hover{
+  color:#a23caa;
+}
 .jspContainer
 {
 overflow:hidden;
@@ -235,34 +238,32 @@ margin:0 -3px 0 0;
   font-size:8pt;
   z-index:20
 }
+
 .moduleInner{
   position:absolute;
   overflow:hidden;
   width:100%;height:100%;
   background-color:#FFF}
+
 .moduleInner .imgWrapper{ 
   height:100%;
   width:100%
 }
+
 .no-csstransitions .moduleInner .imgWrapper{ 
   position:relative
 }
 .module.r1{ top:0px}
 .module.c1{ left:0px}
 .module.r1.c1{z-index:9999}
-.module nav hr.separator{
-  display:inline-block;
-  border:none;
-  width:1px;
-  height:100%;
-  background-color:#898989
-}
+
 .module .background{
   position:absolute;
   z-index:0;
   width:100%;
   height:100%
-}.module .outer{
+}
+.module .outer{
   display:table;
   overflow:hidden;
   text-align:center;
@@ -300,7 +301,8 @@ margin:0 -3px 0 0;
   height:1000px
 }.module.h6{ 
   height:1200px
-}.module.h7{ height:1400px}.module.h8{ height:1600px}.module.h9{ height:1800px}.module.h9{ height:1800px}.module.c1,.moduleInner.c1{ left:0px}.module.c2,.moduleInner.c2{ left:200px}.module.c3,.moduleInner.c3{ left:400px}.module.c4,.moduleInner.c4{ left:600px}.module.c5,.moduleInner.c5{ left:800px}.module.r1,.moduleInner.r1{ top:0px}.module.r2,.moduleInner.r2{ top:200px}.module.r3,.moduleInner.r3{ top:400px}.module.r4,.moduleInner.r4{ top:600px}.module.r5,.moduleInner.r5{ top:800px}.module.r6,.moduleInner.r6{ top:1000px}.module.r7,.moduleInner.r7{ top:1200px}.module.r8,.moduleInner.r8{ top:1400px}.module.r9,.moduleInner.r9{ top:1600px}.module.r10,.moduleInner.r10{ top:1800px}.module.r11,.moduleInner.r11{ top:2000px}.module.r12,.moduleInner.r12{ top:2200px}.module.r13,.moduleInner.r13{ top:2400px}.module.r14,.moduleInner.r14{ top:2600px}.module.r15,.moduleInner.r15{ top:2800px}.module.r16,.moduleInner.r16{ top:3000px}.module.r17,.moduleInner.r17{ top:3200px}.module.r18,.moduleInner.r18{ top:3400px}.module.r19,.moduleInner.r19{ top:3600px}.module.r20,.moduleInner.r20{ top:3800px}.module.r21,.moduleInner.r21{ top:4000px}.module.textModule{
+}.module.h7{ height:1400px}.module.h8{ height:1600px}.module.h9{ height:1800px}.module.h9{ height:1800px}.module.c1,.moduleInner.c1{ left:0px}.module.c2,.moduleInner.c2{ left:200px}.module.c3,.moduleInner.c3{ left:400px}.module.c4,.moduleInner.c4{ left:600px}.module.c5,.moduleInner.c5{ left:800px}.module.r1,.moduleInner.r1{ top:0px}.module.r2,.moduleInner.r2{ top:200px}.module.r3,.moduleInner.r3{ top:400px}.module.r4,.moduleInner.r4{ top:600px}.module.r5,.moduleInner.r5{ top:800px}.module.r6,.moduleInner.r6{ top:1000px}.module.r7,.moduleInner.r7{ top:1200px}.module.r8,.moduleInner.r8{ top:1400px}.module.r9,.moduleInner.r9{ top:1600px}.module.r10,.moduleInner.r10{ top:1800px}.module.r11,.moduleInner.r11{ top:2000px}.module.r12,.moduleInner.r12{ top:2200px}.module.r13,.moduleInner.r13{ top:2400px}.module.r14,.moduleInner.r14{ top:2600px}.module.r15,.moduleInner.r15{ top:2800px}.module.r16,.moduleInner.r16{ top:3000px}.module.r17,.moduleInner.r17{ top:3200px}.module.r18,.moduleInner.r18{ top:3400px}.module.r19,.moduleInner.r19{ top:3600px}.module.r20,.moduleInner.r20{ top:3800px}.module.r21,.moduleInner.r21{ top:4000px}
+.module.textModule{
   font-size:10pt;
 }
 .module.textModule .inner{ 
@@ -315,12 +317,17 @@ margin:0 -3px 0 0;
   font-size:10pt;
   line-height:2em
 }
+.module.textModule p.small:hover{ 
+  font-size:130%
+}
 .module.textModule p.pic{ 
   font-size:18pt;
   text-transform:uppercase;
   color: #204005;
-  font-style:'Bold';
-    
+  font-style:'Bold';  
+}
+.module.textModule p.pic:hover{ 
+  color:#a23caa;
 }
 .module.textModule p.heavy{
   font-family:'Helvetica Neue W01 87 Hv Cn';
@@ -352,11 +359,12 @@ margin:0 -3px 0 0;
   top:0px;  
   z-index:20
 }
-module.workModule .moduleInner img{ 
+.module.workModule .moduleInner img{ 
   position:absolute;
   left:0px;
   top:0px;
 }
+
 .module.workModule .rollover p.media{ 
   color:#204005;
   font-size:19px;

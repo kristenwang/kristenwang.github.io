@@ -1,42 +1,42 @@
 html{
-	width:100%
+  width:100%
 }
 body{
-	margin:0px;
-	padding:0px;
-	width:100%;
-	height:100%;
-	position:relative;
-	background-color:#EDEDED;
-	}
-	p,h1,h2,h3,h4,h5,h6,ul{
-		margin:0px;
-		padding:0px;
-		}
-		article,aside,details,footer,header,hgroup,nav,section,small{
-			display:block;
-			margin:0px;
-			padding:0px;
-			}
-			sub,sup{
-				font-size:75%;
-				line-height:0;
-				position:relative;
-				vertical-align:baseline;
-				}
-				sup{
-					top:-0.5em
-					}
-					sub{
-						bottom:-0.25em
-						}a{ 
-							text-decoration:none
-							}a:focus{ 
-								outline:none
-								}a img{ 
-									border:none
-									}
-									a.button{
+  margin:0px;
+  padding:0px;
+  width:100%;
+  height:100%;
+  position:relative;
+  background-color:#EDEDED;
+  }
+  p,h1,h2,h3,h4,h5,h6,ul{
+    margin:0px;
+    padding:0px;
+    }
+    article,aside,details,footer,header,hgroup,nav,section,small{
+      display:block;
+      margin:0px;
+      padding:0px;
+      }
+      sub,sup{
+        font-size:75%;
+        line-height:0;
+        position:relative;
+        vertical-align:baseline;
+        }
+        sup{
+          top:-0.5em
+          }
+          sub{
+            bottom:-0.25em
+            }a{ 
+              text-decoration:none
+              }a:focus{ 
+                outline:none
+                }a img{ 
+                  border:none
+                  }
+                  a.button{
   display:inline-block;
   position:relative
 }a.button img{
@@ -54,7 +54,7 @@ body{
 }.scrollWrapper:focus{ 
   outline:none
 }.opacity a.button img.over{
-  display:block;	opacity:0
+  display:block;  opacity:0
 }.opacity a.button:hover img{ 
   display:block
 }.opacity a.button:hover img.over{ 
@@ -101,24 +101,24 @@ body{
   margin:0 auto;
   background-color:#FFFFFF
 }
-#pageShim{	
-  width:100%;	
-  height:100%;	
-  position:absolute;	
-  left:0px;	
-  top:0px;	
-  z-index:9000;	
+#pageShim{  
+  width:100%; 
+  height:100%;  
+  position:absolute;  
+  left:0px; 
+  top:0px;  
+  z-index:9000; 
   display:none
 }
-#pageShim #background{	
-  position:absolute;	
-  left:0;	
-  top:0;	
-  width:100%;	
-  height:100%;	
+#pageShim #background{  
+  position:absolute;  
+  left:0; 
+  top:0;  
+  width:100%; 
+  height:100%;  
   z-index:0
 }
-#header header,#page,#pageFooter footer{	
+#header header,#page,#pageFooter footer{  
   width:1000px
 }
 #page.h1{ 
@@ -206,10 +206,10 @@ body{
   position:relative}
 #footerRightWrapper p{ 
   line-height:1.3em
-}#footerRight .moduleInner{	
-  margin:100px 60px;	
-  height:auto;	
-  width:auto;	
+}#footerRight .moduleInner{ 
+  margin:100px 60px;  
+  height:auto;  
+  width:auto; 
   background:none
 }
 he{
@@ -332,24 +332,24 @@ margin:0 -3px 0 0;
 #footerRightWrapper .module.textModule p{
    line-height:1.1em
 }#footerRightWrapper .module.textModule.long .header{
-  	font-family:'Helvetica W01 Bd Cn';	
-  font-size:14px;	
-  color:#666666;	
+    font-family:'Helvetica W01 Bd Cn';  
+  font-size:14px; 
+  color:#666666;  
   padding-bottom:0px
 }
-.module .rollover{	
-  width:100%;	
-  height:100%;	
-  position:absolute;	
-  left:0;	
-  top:0;	
+.module .rollover{  
+  width:100%; 
+  height:100%;  
+  position:absolute;  
+  left:0; 
+  top:0;  
   z-index:1000
-}	
-.module.workModule .moduleInner .imgWrapper{	
-  position:absolute;	
-  overflow:hidden;	
-  left:0px;	
-  top:0px;	
+} 
+.module.workModule .moduleInner .imgWrapper{  
+  position:absolute;  
+  overflow:hidden;  
+  left:0px; 
+  top:0px;  
   z-index:20
 }
 module.workModule .moduleInner img{ 
@@ -362,9 +362,9 @@ module.workModule .moduleInner img{
   font-size:19px;
   line-height:2em
 }
-.module.workModule .rollover .client{	
-  color:#204005;	
-  font-family:'Helvetica W01 Bold';	
+.module.workModule .rollover .client{ 
+  color:#204005;  
+  font-family:'Helvetica W01 Bold'; 
   font-size:30px;
   line-height:2em
 }
@@ -378,7 +378,7 @@ module.workModule .moduleInner img{
   -moz-transition:-moz-transform 1.5s ease-in,opacity 0.5s ease-out;
   -o-transition:-o-transform 1.5s ease-in,opacity 0.5s ease-out;
   transition:transform 1.5s ease-in,opacity 0.5s ease-out
-}	.module.workModule .moduleInner,	.module.workModule .moduleInner img	{
-  		width:200px;		
-  height:200px;	
+} .module.workModule .moduleInner,  .module.workModule .moduleInner img {
+      width:200px;    
+  height:200px; 
 }

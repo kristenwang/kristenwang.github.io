@@ -1,3 +1,4 @@
+(function(){
 $.ajax({
          url:'https://api.spotify.com/v1/albums/1gMxiQQSg5zeu4htBosASY',
          dataType: 'json',
@@ -13,3 +14,4 @@ $.ajax({
            }
          }
        });
+}).call(this);

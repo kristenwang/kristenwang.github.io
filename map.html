@@ -6,7 +6,8 @@
    <link href="https://fonts.googleapis.com/css?family=Roboto:100i,300,400,500,500i,700,700i" rel="stylesheet">
  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
  <script src="api.js"></script>
- <script>$.ajax({
+ <script>
+ $.ajax({
          url:'https://api.spotify.com/v1/albums/1gMxiQQSg5zeu4htBosASY',
          dataType: 'json',
          success: function(result){ 
@@ -17,7 +18,7 @@
              var songname = result.tracks.items[i].name;
              var number = result.tracks.items[i].track_number;
              var link = result.tracks.items[i].external_urls.spotify;
-             $('#Album').append('<li class = "intro" >' + number +'. '+ '<a href="'+link+'">'+songname + '</a></li>');
+             $('Album').append('<li class = "intro" >' + number +'. '+ '<a href="'+link+'">'+songname + '</a></li>');
            }
          }
        });
@@ -35,8 +36,8 @@
   <p> I was born in Xi'an, China, moved to Shanghai for college, and now in<strong>New York</strong></p>
   <p> Love travleing, swimming, movies....</p>
 </div>
-<div>
+
    <div id="Album"> a</div>
-</div>
+
 </body>
 </html>

@@ -2,28 +2,25 @@
 <html>
    <head>
         <title>Homepage</title>
- +  <link rel="stylesheet" type="text/css" href="stylesheet.css">
- +  <link href="https://fonts.googleapis.com/css?family=Roboto:100i,300,400,500,500i,700,700i" rel="stylesheet">
- +
- +<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
- +<script>
- +      $.ajax({
- +        url:'https://api.spotify.com/v1/artists/2ye2Wgw4gimLv2eAKyk1NB/top-tracks?country=SE',
- +        dataType: 'json',
- +        success: function(result){  
- +          for (var i = 0; i < result.tracks.length; i++){
- +            var songname = result.tracks[i].name;
- +            $('#TopTracks').append('<li class = "intro">' + songname + '</li>');
- +          }
- +        }
- +      });
- +    </script>
-    </head>
-    <body>
-       +<div>
- +  <h1 class="introduction"> My favorite Artist Metallica and their top tracks on Spotify</h1>
- +  <div id="TopTracks"> </div>
- +</div>
- +
-    </body>
-  </html>
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <link href="https://fonts.googleapis.com/css?family=Roboto:100i,300,400,500,500i,700,700i" rel="stylesheet">
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+ <script src="api.js"></script>
+</head>
+<body>
+  <div class="photo">
+  <img src="/files/chuyang_wang.jpg" alt="photo">
+  <id>NetID: cw777</id>
+</div>
+  <div class="bio">
+  <h4>Biography:</h4>
+  <p> Hi, I'm <strong>Chuyang Wang</strong></p>
+  <p> Studying<strong>Connective Media</strong>@ Cornell Tech </p>
+  <p> I was born in Xi'an, China, moved to Shanghai for college, and now in<strong>New York</strong></p>
+  <p> Love travleing, swimming, movies....</p>
+</div>
+<div>
+   <div id="Album"> a</div>
+</div>
+</body>
+</html>
